@@ -66,7 +66,8 @@ const Bio = () => {
       <br/>
       <div style={{
         marginLeft: '-59%',
-        marginBottom: '-6%'}}>
+        marginBottom: '-6%',
+        marginTop: '5%'}}>
         {' '}
         <p>
             <ul><li><a href={'/form'}>Please Submit your info here</a></li></ul>
