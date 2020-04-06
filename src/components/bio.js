@@ -69,11 +69,12 @@ const Bio = () => {
         marginBottom: '-6%',
         marginTop: '5%'}}>
         {' '}
-        <p>
-            <ul><li><a href={'/form'}>Please Submit your info here</a></li></ul>
-        </p>
+        
+            <ul><li><a href={'/form'}>Please Submit your info here</a></li>
+            <li><a href={'/form_2'}>Learn more about Star Wars</a></li></ul>
+      
          
-      </div>     
+      </div>   
     </div>
     
   )
