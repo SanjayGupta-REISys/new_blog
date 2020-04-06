@@ -60,10 +60,21 @@ const Bio = () => {
         Written by <strong>{author.name}</strong> {author.summary}
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          Dont bother on Twitter
         </a>
       </p>
+      <br/>
+      <div style={{
+        marginLeft: '-59%',
+        marginBottom: '-6%'}}>
+        {' '}
+        <p>
+            <ul><li><a href={'/form'}>Please Submit your info here</a></li></ul>
+        </p>
+         
+      </div>     
     </div>
+    
   )
 }
 
